@@ -355,6 +355,26 @@
 		padding: 0 35px;
 		height: 47px;
 	}
+
+	.menu li {
+		padding: 10px 0;
+	}
+	.logo-menu img {
+		width: 190px;
+	}
+	.logo-text {
+		font-size: 11px;
+		line-height: 16px;
+		padding-top: 7px;
+		max-width: 168px;
+	}
+	.content-menu {
+		padding: 25px 40px;
+		width: 285px;
+	}
+	.billbord-menu {
+		padding: 0 94px;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -619,6 +639,10 @@
 	.item-catalog__image {
 		height: 170px;
 	}
+
+	.menu li {
+		padding: 7px 0;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -846,6 +870,39 @@
 	.item-catalog__title {
 		font-size: 14px;
 		line-height: 20px;
+	}
+
+	.billbord-menu {
+		display: none;
+	}
+	.content-menu {
+		padding: 15px 20px;
+		width: 100%;
+		height: initial;
+	}
+	.menu-dropdown__wrapper {
+		display: block;
+		height: initial;
+	}
+	.menu-dropdown {
+		position: absolute;
+		top: 100%;
+		height: 100vh;
+		padding-bottom: 120px;
+		overflow: auto;
+	}
+	.content-menu__top {
+		display: none;
+	}
+	.content-menu .menu {
+		width: 100%;
+		padding-top: 0;
+	}
+	.sandwich.active .sw-footer {
+		width: 25px;
+	}
+	.sandwich {
+		width: 35px;
 	}
 }
 

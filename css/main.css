@@ -1448,3 +1448,100 @@ form {
 .item-catalog:hover {
 	box-shadow: 0 5px 15px #ccc;
 }
+
+
+.menu-dropdown {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1001;
+	background-color: #fff;
+	display: none;
+}
+.menu-dropdown__wrapper {
+	height: 100%;
+	display: flex;
+}
+.logo-menu img {
+	width: 214px;
+}
+.logo-menu {
+	display: inline-block;
+}
+.logo-text {
+	font-size: 12px;
+	line-height: 17px;
+	color: #6B6B6B;
+	padding-top: 13px;
+	max-width: 180px;
+	letter-spacing: normal;
+}
+.content-menu {
+	padding: 28px 56px;
+	width: 326px;
+	overflow: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.content-menu::-webkit-scrollbar {
+	-webkit-appearance: none;
+}
+.content-menu::-webkit-scrollbar:vertical {
+	width: 3px;
+}
+.content-menu::-webkit-scrollbar:horizontal {
+	height: 3px;
+}
+.content-menu::-webkit-scrollbar-thumb {
+	background-color: #9C3E75;
+	border-radius: 10px;
+}
+.content-menu::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #ddd;
+}
+.menu {
+	padding: 15px 0;
+}
+.menu a {
+	color: #230E1A;
+	border-bottom: 1px solid transparent;
+}
+.menu a:hover {
+	border-color: #230E1A;
+}
+.menu li {
+	padding: 15px 0;
+}
+.content-menu .line-contacts {
+	margin-bottom: 22px;
+}
+.content-menu .btn-main {
+	border-radius: 10px;
+	padding: 0 29px;
+	height: 50px;
+}
+.billbord-menu {
+	padding: 0 148px;
+	color: #fff;
+	background-image: url(../img/billbord_menu.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+.billbord-menu .billbord__title {
+	max-width: 810px;
+	text-align: left;
+	font-weight: 300;
+}
+.billbord-menu .billbord__title  strong {
+	font-weight: 500;
+	display: block;
+}
